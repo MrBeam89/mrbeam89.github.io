@@ -1,14 +1,18 @@
-<h1>Mes projets</h1>
+# Mes projets
 
-<div id="ecoledirecte_bot" style="display: flex">
-    <img src="res/bot_icon.png" style="margin: 15px; width: 150px; height: 150px" alt="EcoleDirecte Bot Logo" />
-    <h2>EcoleDirecte Bot</h2>
+## EcoleDirecte Bot
 
-    <p>Un bot pour intégrer EcoleDirecte dans Discord avec discord.py</p>
-    
-    <p><a href="https://github.com/MrBeam89/ecoledirecte-bot">Lien vers le dépôt</a></p>
-</div>
+<img src="res/bot_icon.png" width=150 />
 
-<div id="a_venir">
-    <p>Plus de contenu bientôt!</p>
-</div>
+Un bot pour intégrer **EcoleDirecte** dans **Discord** avec [discord.py](https://github.com/Rapptz/discord.py)
+
+Possède plusieurs fonctionnalités telles que :
+
+- **Stockage des informations d'identification** : Utilise SQLite et AES-256 pour stocker vos identifiants chiffrés
+- **Journalisation** : Gardez une trace des actions effectuées par le bot ainsi que celles des utilisateurs
+- **Fichier de configuration** : Permet de changer les noms des fichiers, changer le préfixe des commandes, le niveau de journalisation et le cooldown entre les commandes
+- **Cahier de texte** : Obtenir les devoirs du jour sélectionné
+- **Emploi du temps** : Obtenir les cours du jour sélectionné
+- **Vie scolaire** : Voir vos absences, retards, punitions et encouragements
+
+[Lien vers le dépôt](https://github.com/MrBeam89/ecoledirecte-bot)
